@@ -20,6 +20,8 @@ body {
 /*header*/
 
 .header-logo {
+  font-weight: bold;
+  font: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.19;
   /* identical to box height */
@@ -28,7 +30,7 @@ body {
 }
 
 .web {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .header-link {
@@ -145,7 +147,99 @@ body {
   line-height: 19px;
   /* identical to box height */
 
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+/*portfolio-buttons*/
+
+.item {
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
+.item:hover,
+.item:focus {
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+  background-color: var(--accent-color);
+}
+
+/*portfolio-possibilities*/
+
+.possibilities-project {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+  color: var(--main-title-color);
+}
+
+.possibilities-discription {
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+/*footer*/
+
+.footer {
+  background-color: var(--background-color);
+}
+.footer-logo {
+  font-weight: bold;
+  font: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+}
+
+.footer-blank {
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+}
+
+.footer-mail {
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel {
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
