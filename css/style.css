@@ -21,7 +21,7 @@ body {
 
 .header-logo {
   font-weight: bold;
-  font: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.19;
   /* identical to box height */
@@ -208,7 +208,7 @@ body {
 }
 .footer-logo {
   font-weight: bold;
-  font: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.19;
   /* identical to box height */
