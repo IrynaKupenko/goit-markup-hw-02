@@ -3,6 +3,7 @@
   --secondary-title-color: #ffffff;
   --main-text-color: #757575;
   --accent-color: #2196f3;
+  --background-color: #2f303a;
 }
 
 body {
@@ -35,7 +36,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-title-color);
 }
 .header-link:hover,
 .header-link:focus {
@@ -47,7 +48,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--main-text-color);
 }
 .header-mail:hover,
 .header-mail:focus {
@@ -59,7 +60,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--main-text-color);
 }
 
 .header-tel:hover,
@@ -78,11 +79,11 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--secondary-title-color);
 }
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--background-color);
 }
 
 .hero-button {
@@ -97,4 +98,54 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: var(--secondary-title-color);
+}
+
+/*section services*/
+
+.services-subtitle {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+}
+
+.services-description {
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+/* software products */
+
+.software-products-title {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--main-title-color);
+}
+
+/*team*/
+
+.team-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+
+.team-name {
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
 }
